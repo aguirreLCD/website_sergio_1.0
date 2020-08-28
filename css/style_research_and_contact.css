@@ -1,0 +1,194 @@
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* caracteristicas da img do cabeçalho e das imgs dos mics*/
+.img_logo {
+	width: 25%;
+}
+
+/* caracteristicas da img do rodape*/
+.img_footer {
+	width: 5%;
+	margin: 0 auto;
+}
+
+header {
+	background: #D0D0D0;
+	padding: 20px 0;
+}
+
+.box_menu {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #000080;
+	text-decoration: underline;
+}
+
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	background: #D0D0D0;
+	padding: 10px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 10px 0 0;
+}
+
+/* estilo para acessibilidade - escondendo links p baixa visao*/
+.skip_nav,
+.skip_nav:active,
+.skip_nav:focus,
+.skip_nav:hover {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    display: block;
+    color: transparent;
+    position: absolute;
+}
+
+form {
+	margin: 40px 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 15px 0 10px 0;
+}
+
+.input_standard {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.send {
+	width: 25%;
+	padding: 10px 10px 10px 10px;
+	background: rgb(241, 206, 159);
+	color: white;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.send:hover {
+	background: darkorange;
+	transform: rotate(3deg) scale(1.2);
+}
+
+/*css da pg inicial*/
+
+.main_title {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: right;
+	text-shadow: 2px 2px #FFFFFF;
+}
+
+.main_title:first-letter {
+	font-weight: bold;
+}
+
+.main_title:before {
+	content: "[";
+}
+
+.main_title:after {
+	content: "]";
+}
+
+.principal {
+	padding: 1em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	line-height: 1.2;
+}
+
+/* utensilios - aqui é definido o tamanho e posição da img vidas */
+
+.apresentation {
+	width: 120px;
+	float: right;
+	margin: 0 10px 10px 0;
+}
+
+.map {
+	padding: 1em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.content_map {
+	width: 940px;
+	margin: 0 auto;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.map p {
+	margin: 0 0 1.5em;
+	text-align: center;
+}
+
+.video {
+	padding: 1em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.content_video {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 70%;
+	margin-right: 5%;
+	margin-left: 15%;
+}
+
+body{
+	overflow: scroll;
+}

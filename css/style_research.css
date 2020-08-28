@@ -1,0 +1,51 @@
+.img_research {
+	width: 25%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 3;
+}
+
+.content li {
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	width: 30%;
+	margin: 0 2.5% ;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	border-radius: 20px;
+}
+
+.content h2 {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.content li:hover {
+	border-color: #4a4aa5;
+	font-size: 25px;
+}
+
+.content li:active {
+	border-color: #364236;
+}
+
+.content li:hover h2 {
+	font-size: 25px;
+}

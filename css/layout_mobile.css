@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px) {
+	.box_menu, .content, .content li, form, .principal, .principal p, .content_map, .video, .content_video, .titlesResearch, .container, .img_research {
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: left;
+	}
+
+	h1, h2, li, ul, .titlesResearch {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+}
